@@ -18,9 +18,9 @@
 }
 
 @media (max-width:768px) {
-.image { 
-  text-align: center;
-}
+  .image { 
+    text-align: center;
+  }
 }
 .tasks-container {
   display: block;
