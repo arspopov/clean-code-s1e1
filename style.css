@@ -76,6 +76,7 @@
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  padding-top: 20px;
 }
 .button:hover {
   color: #3a3a3a;
@@ -112,6 +113,7 @@
 }
 .input-new-task {
   width: 318px;
+  margin-top: 20px;
 }
 
 .completed-tasks .label {
