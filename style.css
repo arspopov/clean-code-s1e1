@@ -71,7 +71,7 @@
   font-size: 15px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  width: 60px;
+  min-width: 60px;
 }
 .tasks__button:hover {
   color: #3a3a3a;
@@ -104,7 +104,7 @@
   margin: 0 10px;
 }
 .tasks__text {
-  padding-left: 10px;
+  padding: 0 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 80%;
