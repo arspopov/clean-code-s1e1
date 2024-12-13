@@ -40,10 +40,12 @@
   margin: 0;
   text-transform: uppercase;
   display: block;
-  margin: 0px 0px 20px;
+  margin: 10px 0px 20px;
 }
 .tasks__row {
   display: flex;
+  justify-content: space-between;
+  height: 21px;
 }
 .tasks__input {
   display: inline-block;
@@ -57,9 +59,8 @@
   font-family: Lato, sans-serif;
   font-size: 18px;
   color:#333333;
-  max-width: 95%;
-  margin: 0;
-  padding: 0;
+  padding: 0 10px;
+  max-width: 440px;
 }
 
 .tasks__button {
@@ -70,6 +71,7 @@
   font-size: 15px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  width: 60px;
 }
 .tasks__button:hover {
   color: #3a3a3a;
@@ -115,7 +117,7 @@
   font-family: Lato, sans-serif;
   font-size: 18px;
   color: #888;
-  padding-left: 10px;
+  padding: 0 10px;
 }
 .tasks__item--edit-mode .tasks__text {
   display: none;
